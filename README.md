@@ -1,4 +1,3 @@
-# FreeCodeCamp
-FreeCodeCamp Solutions
+# Algorithm and Data Structure Challenges
 
-Solutions to the JavaScript Algorithms and Data Structures
+Algorithms and Data Structure solutions
