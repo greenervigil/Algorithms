@@ -1,19 +1,12 @@
 function add() {
-  var check = function(num) {
-    if (typeof num !== 'number') {
-      return undefined;
-    } else
-      return num;
+  const check = (num) => {
+    return typeof num !== 'number'? undefined : num;
   };
 
   if (arguments.length > 1 ) {
-    var a = check(arguments[0]);
-    var b = check(arguments[1]);
-    if (a === undefined || b === undefined) {
-      return undefined;
-    }else {
-      return a + b;
-    }
+    const a = check(arguments[0]);
+    const b = check(arguments[1]);
+    return (a === undefined || b === undefined) ? undefined : a + b;
   } else {
     var c = check(arguments[0]);
 
