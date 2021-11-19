@@ -1,8 +1,8 @@
 function where(collection, source) {
- var srcKeys = Object.keys(source);
+ let srcKeys = Object.keys(source);
 
-  return collection.filter(function (obj) {
-    for(var i = 0; i < srcKeys.length; i++) {
+  return collection.filter((obj) => {
+    for(let i = 0; i < srcKeys.length; i++) {
       if(!obj.hasOwnProperty(srcKeys[i]) || obj[srcKeys[i]] !== source[srcKeys[i]]) {
         return false;
       }
