@@ -4,7 +4,7 @@ function where(arr, num) {
     return a - b;
   });
 
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i] >= num)
       return parseInt(i);
   }
